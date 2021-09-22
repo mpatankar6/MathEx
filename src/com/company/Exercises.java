@@ -21,8 +21,8 @@ public class Exercises {
     }
     public static int dayOfWeek(int daysOfWeek1, int day)
     {
-        int daysLeft= daysOfWeek1 + (day-1) % 7;
-        return daysLeft % 7;
+        int daysLeft = (daysOfWeek1 + (day-1)) % 7;
+        return daysLeft;
     }
 
 
